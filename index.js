@@ -1,21 +1,26 @@
+/** Declaring Global Variables */
 var task_name_list = [];
-var same_name_counter = 0;
 
 function create_task(){
+    /** Sets task name to inputted task name */
     var task_name = document.getElementById("new-item-name");
-    var new_task_name = task_name.value
 
+    /** Sets new_task_name to inputted task name as temporary name */
+    var new_task_name = task_name.value;
+
+    /** Creates div for task information */
     var new_task = document.createElement("div");
     new_task.className = "new-item";
 
+    /** Creates alert if name is empty */
     if (new_task_name == ""){
         alert("Please enter a task name");
         return;
     }
     
     if (task_name_list.includes(new_task_name)){
-        same_name_counter += 1
-        new_task_name = `${new_task_name} (${same_name_counter})`;
+        alert("That task already exists");
+        return;
     }
 
     new_task.id = new_task_name;
