@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Lemon";
+    src: url(Lemon/Lemon-Regular.ttf);
+}
+
+body {
+    background-color: #3E3E3E;
+}
+
+
+.todo-menu {
+    height:60px;
+    width:98vw;
+    background-color: #666;
+    border-radius: 15px;
+    margin:0.5%;
+}
+
+.todo-list {
+    height: 43.25vh;
+    width:98vw;
+}
+
+.new-item-button {
+    height: 45px;
+    width: 45px;
+
+
+    color: #FFF;
+    font-family: Lemon;
+    font-size:25px;
+    text-align: center;
+
+    display:inline-block;
+
+    background-color: #666;
+    border-radius: 15px;
+    margin-left:27%
+
+}
+
+.new-item-name {
+    height: 40px;
+    width: 40%;
+
+    color: #FFF;
+    font-family: Lemon;
+    font-size:20px;
+    text-align: left;
+
+    display:inline-block;
+
+    background-color: #666;
+    border-radius: 15px;
+    margin: 0.35%
+
+}
+
+.new-item{
+    width: 15.666%;
+    height:29vh;
+
+    background-color: #666;
+    color:#FFF;
+
+    text-align: center;
+    font-family: Lemon;
+    font-size: 35px;
+
+    position: relative;
+    float:left;
+
+    border-radius: 15px;
+    margin:0.5%;
+}
+
+.task-button{
+    height: 40px;
+    width:fit-content;
+
+    background-color: #666;
+    color:#FFF;
+
+    position: absolute;
+    left:0.5%;
+    bottom:0.5%;
+
+    margin: 0.5%;
+
+    font-family: Lemon;
+    font-size: 20px;
+
+    border-radius: 15px;
+}
