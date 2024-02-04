@@ -4,10 +4,8 @@ var task_name_list = [];
 function create_task(){
     /** Sets task name to inputted task name */
     var task_name = document.getElementById("new-item-name");
-
     /** Sets new_task_name to inputted task name as temporary name */
     var new_task_name = task_name.value;
-
     /** Creates div for task information */
     var new_task = document.createElement("div");
     new_task.className = "new-item";
